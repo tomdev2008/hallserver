@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+	<common loglevel="debug" zoneid="1" servertype="4" serverid="1"/>
+	<filesize log="314572800"/>
+	<net>
+		<listen address="any" port="17904" max_connect_num="100" type="inside" desc="client"/>
+	</net>
+	
+	<peers>
+	    <peer peeraddress="192.168.9.172" peerport="17907" servertype="7" serverid="1"/>
+		<peer peeraddress="192.168.9.173" peerport="17907" servertype="7" serverid="2"/>
+		<peer peeraddress="192.168.9.174" peerport="17907" servertype="7" serverid="3"/>
+		<peer peeraddress="192.168.80.130" peerport="17909" servertype="9" serverid="1"/>
+	</peers>
+</config>

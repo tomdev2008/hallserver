@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+	<msg id="0x110401" type="req" source_type="0x04" dest_type="0x09" trans_type="bykey" timeout="600" resp="0x120401" noti="0x130401"/>
+	<msg id="0x120401" type="resp" source_type="0x09" dest_type="0x04" trans_type="p2p"/>
+	<msg id="0x130401" type="noti" source_type="0x04" dest_type="0x80" trans_type="broadcast"/>
+</config>

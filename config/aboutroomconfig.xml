@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+	<roomtypes>
+		<roomtype playercount="50" hostcount="1" sechostcount="1" admcount="15" tempadmcount="10"/>
+		<roomtype playercount="150" hostcount="1" sechostcount="2" admcount="45" tempadmcount="30"/>
+		<roomtype playercount="300" hostcount="1" sechostcount="2" admcount="90" tempadmcount="60"/>
+		<roomtype playercount="500" hostcount="1" sechostcount="3" admcount="150" tempadmcount="100"/>
+		<roomtype playercount="1000" hostcount="1" sechostcount="4" admcount="300" tempadmcount="200"/>
+	</roomtypes>
+	<viptypes>
+		<viptype vipvalue="0x00" admcount="0"/>
+		<viptype vipvalue="0x01" admcount="1"/>
+		<viptype vipvalue="0x02" admcount="1"/>
+		<viptype vipvalue="0x04" admcount="1"/>
+		<viptype vipvalue="0x08" admcount="1"/>
+		<viptype vipvalue="0x10" admcount="1"/>
+		<viptype vipvalue="0x20" admcount="1"/>
+		<viptype vipvalue="0x40" admcount="2"/>
+		<viptype vipvalue="0x60" admcount="5"/>
+		<viptype vipvalue="0x80" admcount="10"/>
+	</viptypes>
+	<identitytypes>
+		<identitytype identityvalue="0x0000" admcount="0"/>
+		<identitytype identityvalue="0x0001" admcount="1"/>
+		<identitytype identityvalue="0x0002" admcount="1"/>
+		<identitytype identityvalue="0x0004" admcount="1"/>
+		<identitytype identityvalue="0x0008" admcount="0"/>
+		<identitytype identityvalue="0x0010" admcount="8"/>
+		<identitytype identityvalue="0x0020" admcount="0"/>
+		<identitytype identityvalue="0x0040" admcount="0"/>
+		<identitytype identityvalue="0x0060" admcount="0"/>
+		<identitytype identityvalue="0x0080" admcount="0"/>
+	</identitytypes>
+
+</config>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+	<client>
+		<allowedversion minclientver="1030000" maxclientver="1030400"/>
+	</client>
+</config>
