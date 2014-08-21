@@ -67,7 +67,7 @@ int32_t CUpdateVipNotiEvent::UpdateMemVipLevel(RoleID nRoleID, VipLevel nVipLeve
 		WRITE_NOTICE_LOG("update vip level, cannot find role object!{nRoleID=%d, nRet=0x%08x}\n", nRoleID, nRet);
 		return E_NULLPOINTER;
 	}
-	if(nVipLevel > enmVipLevel_TIP || nVipLevel <= enmVipLevel_NONE)
+	if(nVipLevel > enmVipLevel_King || nVipLevel <= enmVipLevel_NONE)
 	{
 		WRITE_ERROR_LOG("update vip level, wrong vip level!{nRoleID=%d, nVipLevel=%d}\n", nRoleID, nVipLevel);
 		return E_NULLPOINTER;
